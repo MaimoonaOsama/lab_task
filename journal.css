@@ -1,0 +1,98 @@
+﻿
+body {
+	font-family: Arial, sans-serif;
+	background-color: lightcyan;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 80%;
+	margin: 20px auto;
+	background-color: white;
+	border: 2px solid teal;
+	padding: 20px;
+}
+
+#header {
+	text-align: center;
+	background-color: lightseagreen;
+	border: 2px solid teal;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+	#header h1 {
+		margin: 0;
+		color: white;
+		font-family: 'Trebuchet MS', sans-serif;
+	}
+
+.subtitle {
+	color: mintcream;
+	font-style: italic;
+}
+
+#friends {
+	float: left;
+	width: 20%;
+	background-color: paleturquoise;
+	border: 2px solid teal;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
+
+	#friends h2 {
+		text-align: center;
+		color: teal;
+	}
+
+	#friends ul {
+		list-style-type: square;
+		padding-left: 20px;
+	}
+
+	#friends a {
+		text-decoration: none;
+		color: darkslategray;
+		font-weight: bold;
+	}
+
+
+#spatula-box {
+	float: left;
+	width: 75%;
+}
+
+.box {
+	border: 2px solid teal;
+	padding: 15px;
+	margin-bottom: 20px;
+	background-color: mintcream;
+}
+
+.entry h3 {
+	color: teal;
+	border-bottom: 1px dashed teal;
+	padding-bottom: 5px;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.entry img {
+	float: right;
+	width: 120px;
+	height: auto;
+	margin-left: 10px;
+	border: 1px solid teal;
+}
+
+
+#container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
